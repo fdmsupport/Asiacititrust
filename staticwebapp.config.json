@@ -2,6 +2,7 @@
   "routes": [
     {
       "route": "/.well-known/*",
+      "allowedRoles": ["anonymous"],
       "headers": {
         "content-type": "text/plain"
       }
